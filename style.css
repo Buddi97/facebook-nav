@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.nav-con{
+    width: calc(100%-80px);
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+
+}
+
+.nav-con-1{
+    width: 200px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.nav-logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.nav-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-search-icon{
+    width: 40px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-search-icon i{
+    font-size: 16px;
+    color: gray;
+}
+
+.nav-con-2{
+    width: calc( 100% - (250px + 250px)) ;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-con-2 ul{
+    height: 100%;
+    
+}
+
+.nav-con-2 ul li{
+    display: inline-block;
+    height: 100%;
+}
+
+
+
+.nav-con-2 ul li a{
+    width: 100px;
+    display: flex;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-con-2 ul li a i{
+    color: black;
+    font-size: 28px;
+}
+
+.nav-con-3{
+    width: 250px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-con-3 ul li{
+    display: inline-block;
+}
+
+.nav-con-3 ul li div{
+    width: 40px;
+    height: 40px;
+    background-image: radial-gradient(rgb(255, 255, 255), rgb(214, 210, 210));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    /* background-image: linear-gradient(to right , blue , aqua, yellow); */
+    background-image: radial-gradient(red, green);
+    border-radius: 50%;
+}
+.font{
+    font-family: "Itim", cursive;
+}
+
+/* .list ul li{
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+    list-style-image: url("./new3.jpeg");
+} */
+
+.new-img img{
+    width: 100%;
+    height: 400px;
+}
